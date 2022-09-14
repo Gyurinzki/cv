@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Elérhetőségi adatok</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <h1>Elérhetőségek</h1>
@@ -10,15 +11,18 @@
       <li>Telefon: 06706652010</li>
       <li>E-mail: gyurelacika2@gmail.com</li>
     </ul>
+    <hr>
+    <form class="" action="mailto:gyurelacika2@gmail.com" method="post" enctype="text/plain">
+      <label>Név:</label>
+      <input type="text" name="Név" value=""><br>
+      <label>E-mail:</label>
+      <input type="email" name="Emailcím" value=""><br>
+      <label>Üzenet:</label>
+      <textarea name="Üzenet" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="" value="Küldés" ><br>
+      <a href="index.html"><input class="back" type="button" name="" value="Vissza"></a>
+    </form>
   </body>
 
-  <form class="" action="mailto:gyurelacika2@gmail.com" method="post" enctype="text/plain">
-    <label>Név:</label>
-    <input type="text" name="Név" value=""><br>
-    <label>E-mail:</label>
-    <input type="email" name="Emailcím" value=""><br>
-    <label>Üzenet:</label>
-    <textarea name="Üzenet" rows="10" cols="30"></textarea><br>
-    <input type="submit" name="">
-  </form>
+
 </html>
